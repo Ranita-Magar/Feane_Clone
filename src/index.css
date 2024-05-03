@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav .nav-title {
+  font-family: Dancing script;
+}
+
+.slider h1 {
+  font-family: Dancing script;
+}
+
+.slick-dots li {
+  color: rgb(233, 237, 241);
+  top: 100px;
+  left: -200px;
+}
+
+.slick-dots li.slick-active button::before {
+  font-size: 18px;
+  color: orange;
+}
+
+
+.slick-dots li button:before {
+  color: rgb(240, 233, 233);
+  font-size: 10px;
+}
+
+.menu h1 {
+  font-family: Dancing script;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+
+/* @media (max-width:1024px) {
+  .nav .nav-toggle {
+    display: hidden;
+  }
+}
+
+@media (max-width:768px) {
+  image {
+    width: fit-content;
+  }
+
+  .nav .nav-title {
+    margin-left: -428px;
+  }
+
+  .nav .nav-menus,
+  .nav-right {
+    display: none;
+  }
+}
+
+@media (max-width:640px) {
+  image {
+    width: fit-content;
+  }
+
+  .nav .nav-title {
+    margin-left: -276px;
+  }
+
+  .nav .nav-menus,
+  .nav-right {
+    display: none;
+  }
+} */

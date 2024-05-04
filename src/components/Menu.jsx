@@ -15,7 +15,9 @@ export const Menu = () => {
   return (
     <div className="menu mb-20">
       {/* <Navbar /> */}
-      <h1 className="menu-title pt-24 pb-8 text-center ">Our Menu</h1>
+      <h1 className="font-dancing font-bold text-4xl menu-title pt-24 pb-8 text-center ">
+        Our Menu
+      </h1>
       <ul className="menu-options flex  items-center justify-center text-center gap-10 mb-10 ">
         <li className="w-[70px] h-10 pt-1 bg-black text-white rounded-full">
           All

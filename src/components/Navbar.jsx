@@ -23,7 +23,9 @@ export const Navbar = () => {
     bg-[url('./assets/images/hero-bg.jpg')] bg-no-repeat "
     >
       <nav className="nav flex pt-5 justify-center items-center text-white  ">
-        <h2 className="nav-title font-bold text-4xl ml-[-36px] mr-28">Feane</h2>
+        <h2 className="nav-title font-dancing font-bold text-4xl ml-[-36px] mr-28">
+          Feane
+        </h2>
         <div className="nav-menus flex  justify-center items-center space-x-3 ml-[200px]    ">
           <a href="/" className="xl:pl-7 ">
             HOME
@@ -57,7 +59,9 @@ export const Navbar = () => {
         className=" slider mt-[190px]  ml-48 mr-[800px]  text-white"
       >
         <div className="">
-          <h1 className="text-6xl font-bold">Fast Food Restaurant</h1>
+          <h1 className="font-dancing text-6xl font-bold">
+            Fast Food Restaurant
+          </h1>
           <p className="pt-5">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
             aliquam repellat molestias officia? Sed vel quas aliquam ullam ab
@@ -70,7 +74,9 @@ export const Navbar = () => {
         </div>
 
         <div>
-          <h1 className="text-6xl font-bold">Fast Food Restaurant</h1>
+          <h1 className="font-dancing text-6xl font-bold">
+            Fast Food Restaurant
+          </h1>
           <p className="pt-5">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
             aliquam repellat molestias officia? Sed vel quas aliquam ullam ab
@@ -83,7 +89,9 @@ export const Navbar = () => {
         </div>
 
         <div>
-          <h1 className="text-6xl font-bold">Fast Food Restaurant</h1>
+          <h1 className="font-dancing text-6xl font-bold">
+            Fast Food Restaurant
+          </h1>
           <p className="pt-5">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
             aliquam repellat molestias officia? Sed vel quas aliquam ullam ab

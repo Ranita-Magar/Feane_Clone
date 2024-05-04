@@ -11,7 +11,9 @@ export const About = () => {
         <img src={AboutImg} alt="about-img" className="w-80  " />
 
         <div className="about-details flex flex-col gap-6 w-2/5">
-          <h3 className="text-5xl font-bold">We Are Feane</h3>
+          <h3 className="font-dancing text-5xl font-bold relative">
+            We Are Feane
+          </h3>
           <p className="text-l">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
             nihil sequi ducimus doloremque tenetur exercitationem maxime amet

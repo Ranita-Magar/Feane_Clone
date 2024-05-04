@@ -2,7 +2,7 @@ import React from "react";
 
 export const BookTable = () => {
   return (
-    <div className="BookTable ml-20 mt-10 grid grid-cols-2">
+    <div className="BookTable ml-20 mt-10 grid grid-cols-2 mb-28">
       <div className="ml-6 mr-10">
         <h3 className="font-dancing font-bold text-4xl my-8">Book A Table</h3>
         <form className="flex flex-col gap-8 ">

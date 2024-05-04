@@ -1,14 +1,18 @@
 import React from "react";
-// import { Navbar } from "./components/Navbar";
-// import { Menu } from "./components/Menu";
+import { Navbar } from "./components/Navbar";
+import { Menu } from "./components/Menu";
 // import { About } from "./components/About";
 import { BookTable } from "./components/BookTable";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      {/* <Navbar />
+      {/* 
+       <BookTable />
+       <Navbar />
       <Menu /> */}
-      <BookTable />
+
+      <Footer />
     </>
   );
 }

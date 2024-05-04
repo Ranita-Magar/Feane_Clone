@@ -1,6 +1,6 @@
 import React from "react";
 
-export const BookTable = () => {
+export default function BookTable() {
   return (
     <div className="BookTable ml-20 mt-10 grid grid-cols-2 mb-28">
       <div className="ml-6 mr-10">
@@ -57,4 +57,4 @@ export const BookTable = () => {
       </button>
     </div>
   );
-};
+}

@@ -9,9 +9,9 @@ import food6 from "../assets/images/f6.png";
 import food7 from "../assets/images/f7.png";
 import food8 from "../assets/images/f8.png";
 import food9 from "../assets/images/f9.png";
-import { FaShoppingBasket, FaShoppingCart } from "react-icons/fa";
+import {  FaShoppingCart } from "react-icons/fa";
 
-export const Menu = () => {
+export default function Menu() {
   return (
     <div className="menu mb-20">
       {/* <Navbar /> */}

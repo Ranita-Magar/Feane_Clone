@@ -10,8 +10,8 @@ function App() {
       {/* 
        <BookTable />
        <Navbar />
-      <Menu /> */}
-
+       */}
+      <Menu />
       <Footer />
     </>
   );

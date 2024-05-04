@@ -1,7 +1,7 @@
 import React from "react";
 import AboutImg from "../assets/images/about-img.png";
 
-export const About = () => {
+export default function About() {
   return (
     <div className="about h-svh w-svw relative">
       <div
@@ -27,4 +27,4 @@ export const About = () => {
       </div>
     </div>
   );
-};
+}

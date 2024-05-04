@@ -6,7 +6,7 @@ import { IoPersonSharp } from "react-icons/io5";
 // import { GiHamburgerMenu } from "react-icons/gi";
 // import { RxCross1 } from "react-icons/rx";
 
-export const Navbar = () => {
+export default function Navbar() {
   var settings = {
     dots: true,
     arrows: false,
@@ -105,4 +105,4 @@ export const Navbar = () => {
       </Slider>
     </div>
   );
-};
+}

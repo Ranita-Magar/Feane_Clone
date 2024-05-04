@@ -33,7 +33,10 @@
   font-weight: bold;
 }
 
-
+.about .about-details h3 {
+  font-family: Dancing script;
+  position: relative;
+}
 
 /* @media (max-width:1024px) {
   .nav .nav-toggle {

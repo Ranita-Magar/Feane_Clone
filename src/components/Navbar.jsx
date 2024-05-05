@@ -19,7 +19,7 @@ export default function Navbar() {
   };
   return (
     <div
-      className="image  bg-cover h-screen w-screen
+      className="image  bg-cover h-screen w-full
     bg-[url('./assets/images/hero-bg.jpg')] bg-no-repeat "
     >
       <nav className="nav flex pt-5 justify-center items-center text-white  ">
